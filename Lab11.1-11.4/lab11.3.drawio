@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="Страница-1" id="QzPLcnt9g0KzO3n63Sgw">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sPIESxTz27TJ2SUynAdp-1" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="UserService" vertex="1">
+          <mxGeometry height="90" width="180" x="324" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-2" parent="sPIESxTz27TJ2SUynAdp-1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-3" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="ProductService" vertex="1">
+          <mxGeometry height="90" width="180" x="10" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-4" parent="sPIESxTz27TJ2SUynAdp-3" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-5" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="OrderService" vertex="1">
+          <mxGeometry height="90" width="180" x="324" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-6" parent="sPIESxTz27TJ2SUynAdp-5" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-7" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="PaymentService" vertex="1">
+          <mxGeometry height="90" width="180" x="324" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-8" parent="sPIESxTz27TJ2SUynAdp-7" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-9" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="NotificationService" vertex="1">
+          <mxGeometry height="90" width="180" x="640" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-10" parent="sPIESxTz27TJ2SUynAdp-9" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-11" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-12" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="250" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-16" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-17" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="409" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-19" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-20" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="570" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-22" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="sPIESxTz27TJ2SUynAdp-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-23" edge="1" parent="1" source="sPIESxTz27TJ2SUynAdp-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sPIESxTz27TJ2SUynAdp-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="500" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="409" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;IUserService&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="419" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;IProductService&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;IPaymentService&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="sPIESxTz27TJ2SUynAdp-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;INotificationService&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
